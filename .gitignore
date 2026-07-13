@@ -1,0 +1,10 @@
+# xcode junk
+DerivedData/
+build/
+*.pbxuser
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+*.xcuserstate
+.DS_Store
+
