@@ -12,6 +12,7 @@ struct HomeView: View {
     var body: some View {
         VStack {
             Text("Home")
+                .offset(y: -300)
         }
     }
 }
