@@ -3,17 +3,16 @@
 //  clipit
 //
 //  Created by Vasili Dallas on 7/12/26.
-//  Last modified on 7/13/26
+//  Last modified on 7/16/26
 
 import SwiftUI
 import SwiftData
 
-// big prototype circle that's not actually a button
 struct HomeView: View {
     var body: some View {
-        Circle()
-            .fill(.blue)
-            .padding()
+        VStack {
+            Text("Home")
+        }
     }
 }
 

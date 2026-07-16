@@ -3,26 +3,30 @@
 //  clipit
 //
 //  Created by Vasili Dallas on 7/12/26.
-//  Last modified on 7/13/26
+//  Last modified on 7/16/26
 
 import SwiftUI
 
 struct MainTabView: View {
     var body: some View {
         TabView {
-            Tab("Home", systemImage: "tray.and.arrow.down.fill") {
-                HomeView()
-            }
-            .badge(2)
+            // home tab
+            HomeView()
+                .tabItem {
+                    Label("Home", systemImage: "house")
+                }
 
-            Tab("Library", systemImage: "tray.and.arrow.up.fill") {
-                LibraryView()
-            }
+            // library tab
+            LibraryView()
+                .tabItem {
+                    Label("Library", systemImage: "waveform")
+                }
 
-            Tab("Settings", systemImage: "person.crop.circle.fill") {
-                SettingsView()
-            }
-            .badge("!")
+            // settings tab
+            SettingsView()
+                .tabItem {
+                    Label("Settings", systemImage: "gearshape")
+                }
         }
     }
 }
