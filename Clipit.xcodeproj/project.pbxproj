@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		F90998AA30047FEA00565E24 /* clipit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clipit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F90998AA30047FEA00565E24 /* Clipit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clipit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -40,7 +40,7 @@
 		F90998AB30047FEA00565E24 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F90998AA30047FEA00565E24 /* clipit.app */,
+				F90998AA30047FEA00565E24 /* Clipit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F90998A930047FEA00565E24 /* clipit */ = {
+		F90998A930047FEA00565E24 /* Clipit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F90998B730047FEB00565E24 /* Build configuration list for PBXNativeTarget "clipit" */;
+			buildConfigurationList = F90998B730047FEB00565E24 /* Build configuration list for PBXNativeTarget "Clipit" */;
 			buildPhases = (
 				F90998A630047FEA00565E24 /* Sources */,
 				F90998A730047FEA00565E24 /* Frameworks */,
@@ -63,11 +63,11 @@
 			fileSystemSynchronizedGroups = (
 				F90998AC30047FEA00565E24 /* clipit */,
 			);
-			name = clipit;
+			name = Clipit;
 			packageProductDependencies = (
 			);
 			productName = clipit;
-			productReference = F90998AA30047FEA00565E24 /* clipit.app */;
+			productReference = F90998AA30047FEA00565E24 /* Clipit.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F90998A530047FEA00565E24 /* Build configuration list for PBXProject "clipit" */;
+			buildConfigurationList = F90998A530047FEA00565E24 /* Build configuration list for PBXProject "Clipit" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F90998A930047FEA00565E24 /* clipit */,
+				F90998A930047FEA00565E24 /* Clipit */,
 			);
 		};
 /* End PBXProject section */
@@ -261,6 +261,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -293,6 +294,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,7 +315,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F90998A530047FEA00565E24 /* Build configuration list for PBXProject "clipit" */ = {
+		F90998A530047FEA00565E24 /* Build configuration list for PBXProject "Clipit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F90998B530047FEB00565E24 /* Debug */,
@@ -322,7 +324,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F90998B730047FEB00565E24 /* Build configuration list for PBXNativeTarget "clipit" */ = {
+		F90998B730047FEB00565E24 /* Build configuration list for PBXNativeTarget "Clipit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F90998B830047FEB00565E24 /* Debug */,
