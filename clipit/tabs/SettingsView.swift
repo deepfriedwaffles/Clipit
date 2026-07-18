@@ -13,22 +13,38 @@ struct SettingsView: View {
     @State public var clipDurationInSecs = 30
     
     var body: some View {
-        NavigationView {
-            Form {
-                Section(header: Text("Settings")) {
-                    // https://developer.apple.com/documentation/swiftui/form documentation i need!!
-                    Picker("Clip Duration", selection: $clipDurationInSecs) {
-                        Text("15 Seconds").tag(15)
-                        Text("30 Seconds").tag(30)
-                        Text("60 Seconds").tag(60)
-                        Text("120 Seconds").tag(120)
-                    } //picker
-                    .onChange(of: clipDurationInSecs) { _, newValue in
-                        print("new clip duration is " + String(clipDurationInSecs))
-                        // add stuff here when audio engine is done
+        NavigationStack {
+            VStack {
+                Form { // https://developer.apple.com/documentation/swiftui/form documentation i need!!
+                    Section(/* header: Text("Settings") */) {
+                        Picker("Clip Duration", selection: $clipDurationInSecs) {
+                            Text("15 Seconds").tag(15)
+                            Text("30 Seconds").tag(30)
+                            Text("60 Seconds").tag(60)
+                            Text("120 Seconds").tag(120) }
+                        
+                        .onChange(of: clipDurationInSecs) { _, newValue in
+                            print("new clip duration is " + String(clipDurationInSecs))
+                            
+                            /*IDEAS FOR MORE SETTINGS
+                             audio quality, clear recently deleted after time, stereo recording, audio quality compressed or lossless
+                             
+                             definitey need a donate button */
+                        }
                     }
-                } //section
-            } //form
-        } //navigation view
+                }
+                Text("Made with ❤️ by Vasili Dallas.\n[Source Code on GitHub](https://github.com/deepfriedwaffles/Clipit)")
+                    .font(.footnote)
+                    .multilineTextAlignment(.center)
+                    .frame(maxWidth: .infinity)
+                    .foregroundColor(.secondary)
+                    .padding(.bottom, 20)
+            }
+            .navigationTitle("Settings")
+        }
     } //var body
 } //struct
+
+#Preview {
+    SettingsView();
+}
