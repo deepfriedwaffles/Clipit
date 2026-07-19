@@ -3,7 +3,7 @@
 //  clipit
 //
 //  Created by Vasili Dallas on 7/12/26.
-//  Last modified on 7/16/26
+//  Last modified on 7/19/26
 
 import SwiftUI
 import SwiftData
@@ -17,7 +17,7 @@ struct HomeView: View {
                 Button {
                     print("Clip!")
                 } label: {
-                    Image(systemName: "waveform")
+                    Image(systemName: "movieclapper.fill")
                         .font(.system(size: 60))
                         .frame(width: 180, height: 180)
                 }
@@ -25,10 +25,11 @@ struct HomeView: View {
                 .clipShape(Circle())
             } else {
                 // Fallback on earlier versions
+                // why is everything blue??
                 Button {
                     print("Clip!")
                 } label: {
-                    Image(systemName: "waveform")
+                    Image(systemName: "movieclapper.fill")
                         .font(.system(size: 60))
                         .frame(width: 180, height: 180)
                 }
