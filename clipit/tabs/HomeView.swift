@@ -40,6 +40,14 @@ struct HomeView: View {
             // mic on off button
             if #available(iOS 26.0, *) {
                 Button {
+                    /*
+                     if microphoneOn {
+                        // i intend to make these into methods but i'm commenting it out to keep this compilable for now
+                        clipEngine.stopListening()
+                    } else {
+                        clipEngine.startListening()
+                    } */
+                    
                     microphoneOn.toggle()
                 } label: {
                     HStack {
