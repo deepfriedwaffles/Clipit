@@ -23,7 +23,7 @@ By making Clipit completely open source, you can:
 * **Use, share, modify, and redistribute** the code under the terms of the Apache 2.0 License.
 * **Help improve Clipit** or fork your own version. (If I merge your pull request, you'll be credited!)
 
-## Intended Use / Designed for Everyday Moments
+## Intended Use
 
 Clipit was born out of my desire to capture and remember all the funny things my friends and I say in person, even when we aren't actively recording or using our phones.
 
@@ -40,9 +40,6 @@ Clipit stores recordings strictly within the app's private, sandboxed local stor
 **If you delete Clipit, all of your saved clips are permanently deleted with it.**
 
 ## Yes, That's Right: Delete the App = Delete Everything
-
-> [!WARNING]
-> Deleting Clipit permanently erases all clips stored within the app.
 
 This is a deliberate privacy choice. Your clips are **not** uploaded to iCloud. They are **not** accessible from your other devices. The only way they become permanent outside of Clipit is if you intentionally choose to share or export them.
 
